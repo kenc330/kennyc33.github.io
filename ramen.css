@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top {
+    background-color: #cfd1c5;
+    display: grid;
+    grid-template-columns: 250px 1150px;
+}
+
+.topImage {
+    width: 250px;
+    height: 250px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 1150px;
+}
+
+.images_contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.images_contact img {
+    width: 350px;
+    height: 250px;
+    margin-top: 25px;
+    border: solid black 1px;
+    border-radius: 25%;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#wrapper {
+    width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #101413;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: auto;
+    margin-right: 500px;
+}
+
+nav {
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: inset black 1px;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+}
+
+nav a:hover {
+    color: green;
+    background-color: white;
+    border: solid black 1px;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    border-top: solid #101413 1px;
+}
+
+main p {
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    border: solid gray 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td, th {
+    text-align: left;
+    border-bottom: solid black 2px;
+}
+
+.width {
+    width: 300px;
+}
+
+.no_border {
+    border-bottom: none;
+}
+
+td img {
+    width: 150px;
+    height: 150px;
+    border: solid black 1px;
+    margin: 10px;
+    float: right;
+}
+
+.about-img {
+    margin: auto;
+    margin-bottom: 50px;
+    margin-right: 400px;
+}
+
+.menu {
+    text-align: center;
+    height: 50px;
+    font-size: 22px;
+    border-bottom: solid black 1px;
+    background-color: #101413;
+    color: white;
+}
+
+.menu_header {
+    margin-right: 250px;
+}
+
+.recipe_row {
+    height: auto;
+    border-bottom: none;
+    color: black;
+    vertical-align: text-top;
+    padding-top: 25px;
+}
+
+.recipe_row p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 250px;
+    width: 500px;
+    line-height: 1.6;
+    padding-bottom: 25px;
+}
+
+.recipe_page1 {
+    padding-top: 25px;
+    vertical-align: text-top;
+    width: 250px;
+}
+
+.recipe_page2 {
+    padding-top: 25px;
+    vertical-align: text-top;
+}
+
+.recipe_page3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: text-top;
+}
+
+.recipe_page4 {
+    padding-top: 25px;
+    vertical-align: text-top;
+    border-bottom: none;
+}
+
+.recipe_page5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: text-top;
+    border-bottom: none;
+}
+
+.spacing {
+    letter-spacing: normal;
+    line-height: 1.6;
+}
+
+.recipe_page2 p {
+    width: 500px;
+    margin-left: 0;
+    line-height: 1.6;
+    padding-bottom: 25px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.recipe_image {
+    height: 250px;
+    width: 250px;
+}
+
+.wiki:link {
+    color: blue;
+}
+
+.wiki:visited {
+    color: blue;
+}
+
+.wiki:hover {
+    color: red;
+}
+
+.wiki:active {
+    color: blue;
+}
+
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    width: 250px;
+    text-align: right;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+.contact {
+    padding-top: 50px;
+}
+
+.contact form {
+    margin-left: 50px;
+}
+
+.contact p {
+    margin-bottom: 25px;
+}
+
+.form_image {
+    width: 700px;
+    margin-left: 350px;
+}
+
+.form_p {
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+iframe {
+    border: solid black 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact_image {
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+.images_contact p {
+    width: auto;
+    margin: auto;
+    border: solid black 1px;
+    padding: 55px;
+    background-color: #62779c;
+    border-radius: 25%;
+}
+
+footer {
+    text-align: center;
+    background: #cfd1c5;
+    border-top: solid #101413 1px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer a {
+    color: blue;
+}
+
+footer a:hover {
+    color: green;
+}
